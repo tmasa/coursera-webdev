@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Module 3 Assignment</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+  </head>
+<body>
+
+  <header>
+    <nav id="header-nav" class="navbar navbar-default"> <!-- basic navbar component -->
+      <div class="container"> <!-- full page -->
+         <div class="navbar-header"> <!-- mobile view will fall apart without this class -->
+            <div class="navbar-brand">
+              <h1>Food, LLC.</h1>
+            </div>
+
+            <!-- 
+              navbar-toggle: controlling the position of the button, relative position, float to right, displayed only below 768 px
+              collapsed: bootstrap plugin; plugin name is: collapse (look for it in bootstrap.js!!!), put CSS selector to data-target!
+              aria-expanded is for screen readers 
+            -->
+            <button type="button" id="toggle-button" class="navbar-toggle visible-xs collapsed" data-toggle="collapse" data-target="#my-mobile-nav" aria-expanded="false">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+        </div> <!-- navbar-header -->
+
+        <div class="collapse navbar-collapse" id="my-mobile-nav">
+          <ul id="nav-list" class="nav navbar-nav visible-xs">
+            <li><a href="#">Chicken</a></li>
+            <li><a href="#">Beef</a></li>
+            <li><a href="#">Sushi</a></li>
+          </ul>
+        </div> <!-- my-mobile-nav -->
+      </div> <!-- container -->
+    </nav>
+  </header>
+
+  <h2 class="our-menu text-center">Our menu</h2>
+
+  <div id="main-content" class="container">
+    <div class="row">
+      <section class="col-lg-12 col-sm-12 col-xs-12 tall-section">
+          <div class="section-title text-center">Chicken</div>
+          <div class="section-content">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt, quam id efficitur aliquet, orci dui finibus nulla, sit amet aliquet libero erat at tortor. Etiam velit arcu, mollis sit amet tempus eget, ultricies cursus lectus. Nam dapibus viverra metus, quis aliquet magna pulvinar sed. Duis enim odio, sollicitudin vel laoreet nec, aliquam nec enim. Praesent pellentesque rutrum nisl, in pulvinar sem mattis non. Morbi malesuada eu justo sed mattis. Nunc iaculis sem eget tortor ornare accumsan. Suspendisse semper porta velit, et finibus dolor venenatis suscipit. Phasellus tristique ornare ornare. Etiam eget neque non lectus tristique tincidunt. Integer in quam porttitor, malesuada ipsum et, laoreet ante. Vestibulum laoreet ornare ligula, sit amet tempor ipsum laoreet eget. Aenean nibh enim, mattis nec nisi in, volutpat vestibulum nibh. Integer blandit lectus vel ex lacinia, eu cursus tortor euismod.
+        
+        Aliquam erat volutpat. Mauris gravida placerat mauris, et pharetra neque cursus sed. Nulla luctus erat quis nunc sagittis, accumsan bibendum lorem egestas. Mauris aliquet eget augue vitae venenatis. Morbi congue magna at gravida pellentesque. Cras commodo pharetra volutpat. Phasellus euismod elit quis ligula convallis, scelerisque placerat ex consectetur. Nunc gravida vestibulum dapibus. In pulvinar sodales sapien vulputate ultricies. Mauris lacus sem, vulputate ac mi vitae, auctor rutrum nunc. Duis a vestibulum lorem. Nulla in est id nisi varius commodo ut sed neque.
+        
+        Aliquam vehicula laoreet placerat. Proin magna dui, commodo in diam pellentesque, cursus accumsan mauris. Integer imperdiet rhoncus interdum. Nullam interdum tincidunt ante. Aenean in augue arcu. Sed vestibulum metus at nisi dapibus, et pretium eros placerat. Duis fermentum eros ante, ultricies scelerisque magna finibus sit amet. Praesent porta magna in velit pharetra, id malesuada metus auctor. Integer varius libero non eros facilisis porttitor.
+        
+        Sed a convallis ex. Nullam facilisis metus sapien, eget rhoncus neque ornare sed. Proin consectetur molestie ipsum. Praesent semper, augue sed eleifend molestie, orci lectus consectetur turpis, quis ultrices metus nisi in ex. Sed diam massa, pellentesque eu maximus sit amet, lobortis sit amet lorem. Pellentesque vulputate, arcu ac posuere ornare, augue purus venenatis odio, a feugiat felis tellus a urna. Vivamus vitae cursus justo. Fusce quis neque justo. Sed orci tellus, varius vitae accumsan nec, commodo sed mauris. Aliquam quis odio vitae risus molestie vehicula.
+        
+        Donec sollicitudin ornare malesuada. Aliquam eget eleifend nunc. Aenean risus neque, tempor et imperdiet in, sagittis at nibh. Nulla venenatis eget magna non malesuada. Quisque massa dui, posuere quis consectetur ac, dictum et libero. Aenean eget dolor felis. Nunc sagittis bibendum risus non lobortis. Cras porttitor pellentesque euismod. In lacinia vestibulum justo id eleifend. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        
+        </div> <!-- section-content> -->
+      </section>
+    </div> <!-- row -->
+  </div> <!--. main-content -->
+
+
+  </div>
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
